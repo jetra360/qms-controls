@@ -43,7 +43,7 @@ flowchart LR
 | `site/.vitepress/mermaid.mjs` | Mermaid fence → renderable container |
 | `site/.vitepress/build-sidebar.mjs` | One group; folders are collapsible chapters. `HIDDEN_FROM_SIDEBAR` hides six folders from the menu without unpublishing them |
 | `site/.vitepress/remote-manifest.json` | Guide stems from QMS_demo |
-| `site/.vitepress/prepare-modules.mjs` | Creates `vault/node_modules` → `site/node_modules` symlink |
+| `site/.vitepress/prepare-modules.mjs` | Creates a repo-root `node_modules` symlink (outside the vault) |
 | `site/.vitepress/theme/` | Nord CSS, Mermaid overlay, sidebar controls, resume card |
 | `scripts/validate-vault.py`, `scripts/validate-wikilinks.py` | Local checks |
 | `.github/workflows/deploy.yml` | Build and deploy |

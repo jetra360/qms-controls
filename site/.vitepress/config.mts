@@ -48,7 +48,19 @@ export default defineConfig({
     },
   },
 
-  // No vue alias here: node_modules at the vault root is a symlink to
-  // site/node_modules (created by docs:prepare), so imports from notes resolve
-  // to ONE Vue instance. Aliasing 'vue' broke hydration in the first build.
+  // node_modules is symlinked at the repository root (outside the Tolaria
+  // vault) so Tolaria never indexes package READMEs. resolve.modules finds
+  // bare imports; only vue/server-renderer needs an explicit file. Never
+  // alias 'vue' itself — a second Vue instance broke hydration.
+  vite: {
+    resolve: {
+      modules: [path.resolve(here, '../../node_modules'), 'node_modules'],
+      alias: [
+        {
+          find: 'vue/server-renderer',
+          replacement: path.resolve(here, '../../node_modules/vue/server-renderer/index.mjs'),
+        },
+      ],
+    },
+  },
 })

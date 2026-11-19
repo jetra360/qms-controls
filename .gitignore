@@ -5,7 +5,7 @@ node_modules/
 site/.vitepress/dist/
 site/.vitepress/cache/
 site/node_modules/
-/vault/node_modules
+/node_modules
 *.log
 
 # Guides live in the independent qms-demo repository.

@@ -63,7 +63,7 @@ npm run docs:dev
 npm run docs:build   # output: site/.vitepress/dist/
 ```
 
-`docs:prepare` recreates the `node_modules` symlink inside `vault/` and regenerates the sidebar. Never commit `dist/`, `node_modules/` or the generated symlink.
+`docs:prepare` recreates the `node_modules` symlink at the repository root (outside the vault, so Tolaria cannot index it) and regenerates the sidebar. Never commit `dist/`, `node_modules/` or the generated symlink.
 
 ## Two independent sites
 
