@@ -20,6 +20,7 @@ owner: null
 approver: null
 status: draft
 implements: null
+_sort: "title:asc"
 ---
 
 # WorkInstruction

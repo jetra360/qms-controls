@@ -9,6 +9,7 @@ _pinned_properties:
 _list_properties_display:
   - status
 status: active
+_sort: "title:asc"
 ---
 
 # Note

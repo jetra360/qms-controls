@@ -15,6 +15,7 @@ _list_properties_display:
 doc_id: null
 performed_on: null
 status: active
+_sort: "title:asc"
 ---
 
 # Record

@@ -22,6 +22,7 @@ due: null
 verified_by: null
 closed_on: null
 status: open
+_sort: "title:asc"
 ---
 
 # CAPA
