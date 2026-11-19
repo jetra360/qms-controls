@@ -1,404 +1,422 @@
 {
   "/": [
     {
-      "text": "Vault docs",
-      "collapsed": true,
+      "text": "QMS controls",
+      "collapsed": false,
       "items": [
         {
-          "text": "Agent guidance — QMS_controls vault",
-          "link": "/AGENTS"
+          "text": "Vault docs",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Agent guidance — QMS_controls vault",
+              "link": "/AGENTS"
+            },
+            {
+              "text": "Development guide — QMS_controls",
+              "link": "/DEVELOPMENT"
+            },
+            {
+              "text": "Lessons learned — QMS_controls",
+              "link": "/lessons-learned"
+            },
+            {
+              "text": "QMS_controls vault — start here",
+              "link": "/README"
+            }
+          ]
         },
         {
-          "text": "Development guide — QMS_controls",
-          "link": "/DEVELOPMENT"
+          "text": "Policies",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Data Integrity Policy",
+              "link": "/policies/POL-QUAL-002"
+            },
+            {
+              "text": "Quality Policy",
+              "link": "/policies/POL-QUAL-001"
+            }
+          ]
         },
         {
-          "text": "Lessons learned — QMS_controls",
-          "link": "/lessons-learned"
+          "text": "Procedures",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Batch Release",
+              "link": "/procedures/SOP-PROD-001"
+            },
+            {
+              "text": "Incoming Goods Inspection",
+              "link": "/procedures/SOP-QA-001"
+            },
+            {
+              "text": "Nonconformance Handling",
+              "link": "/procedures/SOP-QA-002"
+            }
+          ]
         },
         {
-          "text": "QMS_controls vault — start here",
-          "link": "/README"
-        }
-      ]
-    },
-    {
-      "text": "Policies",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "Data Integrity Policy",
-          "link": "/policies/POL-QUAL-002"
+          "text": "Work instructions",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Label Verification",
+              "link": "/instructions/WI-PROD-003"
+            }
+          ]
         },
         {
-          "text": "Quality Policy",
-          "link": "/policies/POL-QUAL-001"
-        }
-      ]
-    },
-    {
-      "text": "Procedures",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "Batch Release",
-          "link": "/procedures/SOP-PROD-001"
+          "text": "Records",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Disposition record — NC-2026-11-19-001",
+              "link": "/records/REC-NC-2026-11-19-001"
+            },
+            {
+              "text": "Inspection record — lot B-2611-17",
+              "link": "/records/INSP-REC-2026-011"
+            },
+            {
+              "text": "Training record — incoming inspection",
+              "link": "/records/TRAIN-REC-2026-07"
+            }
+          ]
         },
         {
-          "text": "Incoming Goods Inspection",
-          "link": "/procedures/SOP-QA-001"
-        },
-        {
-          "text": "Nonconformance Handling",
-          "link": "/procedures/SOP-QA-002"
-        }
-      ]
-    },
-    {
-      "text": "Work instructions",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "Label Verification",
-          "link": "/instructions/WI-PROD-003"
-        }
-      ]
-    },
-    {
-      "text": "Records",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "Disposition record — NC-2026-11-19-001",
-          "link": "/records/REC-NC-2026-11-19-001"
-        },
-        {
-          "text": "Inspection record — lot B-2611-17",
-          "link": "/records/INSP-REC-2026-011"
-        },
-        {
-          "text": "Training record — incoming inspection",
-          "link": "/records/TRAIN-REC-2026-07"
-        }
-      ]
-    },
-    {
-      "text": "Audits & findings",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "Internal audit finding — document review controls",
-          "link": "/audits/AUDIT-2026-Q1"
-        },
-        {
-          "text": "NC-2026-11-19-001 — Damaged seals on incoming material",
-          "link": "/audits/NC-2026-11-19-001"
-        }
-      ]
-    },
-    {
-      "text": "CAPA",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "CAPA-2026-001 — Overdue review process",
-          "link": "/capa/CAPA-2026-001"
-        },
-        {
-          "text": "CAPA-2026-002 — Supplier defect investigation",
-          "link": "/capa/CAPA-2026-002"
-        }
-      ]
-    },
-    {
-      "text": "Registers",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "document-master.sheet",
-          "link": "/registers/document-master.sheet"
-        },
-        {
-          "text": "raci-obligations.sheet",
-          "link": "/registers/raci-obligations.sheet"
-        },
-        {
-          "text": "risk-register.sheet",
-          "link": "/registers/risk-register.sheet"
-        }
-      ]
-    },
-    {
-      "text": "ISO 9001",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "§1 Scope — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-1-Scope"
-        },
-        {
-          "text": "§1 Scope — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-1-Scope"
-        },
-        {
-          "text": "§10 Improvement — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-10-Improvement"
-        },
-        {
-          "text": "§10 Improvement — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-10-Improvement"
-        },
-        {
-          "text": "§10.2 Nonconformity and corrective action — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-10-2-Nonconformity-and-corrective-action"
-        },
-        {
-          "text": "§2 Normative references — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-2-Normative-references"
-        },
-        {
-          "text": "§2 Normative references — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-2-Normative-references"
-        },
-        {
-          "text": "§3 Terms and definitions — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-3-Terms-and-definitions"
-        },
-        {
-          "text": "§3 Terms and definitions — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-3-Terms-and-definitions"
-        },
-        {
-          "text": "§4 Context of the organization — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-4-Context-of-the-organization"
-        },
-        {
-          "text": "§4 Context of the organization — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-4-Context-of-the-organization"
-        },
-        {
-          "text": "§5 Leadership — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-5-Leadership"
-        },
-        {
-          "text": "§5 Leadership — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-5-Leadership"
-        },
-        {
-          "text": "§5.1.2 Customer focus — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-5-1-2-Customer-focus"
-        },
-        {
-          "text": "§5.3 Organizational roles, responsibilities and authorities — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-5-3-Organizational-roles-responsibilities-authorities"
-        },
-        {
-          "text": "§6 Planning — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-6-Planning"
-        },
-        {
-          "text": "§6 Planning — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-6-Planning"
-        },
-        {
-          "text": "§6.1 Actions to address risks and opportunities — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-6-1-Actions-to-address-risks-and-opportunities"
-        },
-        {
-          "text": "§7 Support — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-7-Support"
-        },
-        {
-          "text": "§7 Support — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-7-Support"
-        },
-        {
-          "text": "§7.2 Competence — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-7-2-Competence"
-        },
-        {
-          "text": "§7.5 Documented information — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-7-5-Documented-information"
-        },
-        {
-          "text": "§7.5.2 Creating and updating — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-7-5-2-Creating-and-updating"
-        },
-        {
-          "text": "§7.5.3 Control of documented information — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-7-5-3-Control-of-documented-information"
-        },
-        {
-          "text": "§8 Operation — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-8-Operation"
-        },
-        {
-          "text": "§8 Operation — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-8-Operation"
-        },
-        {
-          "text": "§8.5.1 Control of production and provision of service — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-8-5-1-Control-of-production-and-provision-of-service"
-        },
-        {
-          "text": "§8.6 Release of products and services — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-8-6-Release-of-products-and-services"
-        },
-        {
-          "text": "§8.7 Control of nonconforming outputs — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-8-7-Control-of-nonconforming-outputs"
-        },
-        {
-          "text": "§9 Performance evaluation — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-9-Performance-evaluation"
-        },
-        {
-          "text": "§9 Performance evaluation — ISO 9001:2026",
-          "link": "/iso-9001/2026/iso2026-9-Performance-evaluation"
-        },
-        {
-          "text": "§9.2 Internal audit — ISO 9001:2015",
-          "link": "/iso-9001/2015/iso2015-9-2-Internal-audit"
-        },
-        {
-          "text": "ISO 9001 clause map",
-          "link": "/iso-9001/iso-9001-map"
-        }
-      ]
-    },
-    {
-      "text": "Templates",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "AI prompt — draft a controlled SOP",
-          "link": "/templates/ai-sop-draft-prompt"
-        },
-        {
-          "text": "CAPA template",
-          "link": "/templates/capa-template"
-        },
-        {
-          "text": "Nonconformance report — capture form",
-          "link": "/templates/nonconformance-report"
-        },
-        {
-          "text": "SOP template",
-          "link": "/templates/sop-template"
-        }
-      ]
-    },
-    {
-      "text": "Dashboards",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "Nonconformance lifecycle",
-          "link": "/dashboards/nc-lifecycle"
-        },
-        {
-          "text": "QMS overview dashboard",
-          "link": "/dashboards/qms-overview"
-        },
-        {
-          "text": "SOP lifecycle — template to controlled document",
-          "link": "/dashboards/sop-lifecycle"
-        }
-      ]
-    },
-    {
-      "text": "People",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "Jane Doe",
-          "link": "/people/jane-doe"
-        }
-      ]
-    },
-    {
-      "text": "Roles",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "Production Manager",
-          "link": "/roles/prod-manager"
-        },
-        {
-          "text": "QA Director",
-          "link": "/roles/qa-director"
-        },
-        {
-          "text": "QA Engineer",
-          "link": "/roles/qa-engineer"
-        },
-        {
-          "text": "QA Manager",
-          "link": "/roles/qa-manager"
-        }
-      ]
-    },
-    {
-      "text": "Inbox captures",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "NC-2026-11-19-002 — Connector housing dimension out of tolerance",
-          "link": "/inbox/NC-2026-11-19-002"
-        },
-        {
-          "text": "Near miss: unsecured pallet in goods-in bay",
-          "link": "/inbox/NEAR-MISS-2026-004"
-        },
-        {
-          "text": "Supplier issue: certificate of conformance missing",
-          "link": "/inbox/SUPPLIER-ISSUE-2026-003"
-        }
-      ]
-    },
-    {
-      "text": "Types",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "AuditFinding",
-          "link": "/types/AuditFinding"
+          "text": "Audits & findings",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Internal audit finding — document review controls",
+              "link": "/audits/AUDIT-2026-Q1"
+            },
+            {
+              "text": "NC-2026-11-19-001 — Damaged seals on incoming material",
+              "link": "/audits/NC-2026-11-19-001"
+            }
+          ]
         },
         {
           "text": "CAPA",
-          "link": "/types/CAPA"
+          "collapsed": true,
+          "items": [
+            {
+              "text": "CAPA-2026-001 — Overdue review process",
+              "link": "/capa/CAPA-2026-001"
+            },
+            {
+              "text": "CAPA-2026-002 — Supplier defect investigation",
+              "link": "/capa/CAPA-2026-002"
+            }
+          ]
         },
         {
-          "text": "Note",
-          "link": "/types/Note"
+          "text": "Registers",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "document-master.sheet",
+              "link": "/registers/document-master.sheet"
+            },
+            {
+              "text": "raci-obligations.sheet",
+              "link": "/registers/raci-obligations.sheet"
+            },
+            {
+              "text": "risk-register.sheet",
+              "link": "/registers/risk-register.sheet"
+            }
+          ]
         },
         {
-          "text": "Person",
-          "link": "/types/Person"
+          "text": "ISO 9001",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "ISO 9001 clause map",
+              "link": "/iso-9001/iso-9001-map"
+            },
+            {
+              "text": "ISO 9001:2015 (legacy)",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "§1 Scope — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-1-Scope"
+                },
+                {
+                  "text": "§10 Improvement — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-10-Improvement"
+                },
+                {
+                  "text": "§10.2 Nonconformity and corrective action — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-10-2-Nonconformity-and-corrective-action"
+                },
+                {
+                  "text": "§2 Normative references — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-2-Normative-references"
+                },
+                {
+                  "text": "§3 Terms and definitions — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-3-Terms-and-definitions"
+                },
+                {
+                  "text": "§4 Context of the organization — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-4-Context-of-the-organization"
+                },
+                {
+                  "text": "§5 Leadership — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-5-Leadership"
+                },
+                {
+                  "text": "§5.1.2 Customer focus — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-5-1-2-Customer-focus"
+                },
+                {
+                  "text": "§5.3 Organizational roles, responsibilities and authorities — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-5-3-Organizational-roles-responsibilities-authorities"
+                },
+                {
+                  "text": "§6 Planning — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-6-Planning"
+                },
+                {
+                  "text": "§6.1 Actions to address risks and opportunities — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-6-1-Actions-to-address-risks-and-opportunities"
+                },
+                {
+                  "text": "§7 Support — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-7-Support"
+                },
+                {
+                  "text": "§7.2 Competence — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-7-2-Competence"
+                },
+                {
+                  "text": "§7.5 Documented information — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-7-5-Documented-information"
+                },
+                {
+                  "text": "§7.5.2 Creating and updating — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-7-5-2-Creating-and-updating"
+                },
+                {
+                  "text": "§7.5.3 Control of documented information — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-7-5-3-Control-of-documented-information"
+                },
+                {
+                  "text": "§8 Operation — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-8-Operation"
+                },
+                {
+                  "text": "§8.5.1 Control of production and provision of service — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-8-5-1-Control-of-production-and-provision-of-service"
+                },
+                {
+                  "text": "§8.6 Release of products and services — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-8-6-Release-of-products-and-services"
+                },
+                {
+                  "text": "§8.7 Control of nonconforming outputs — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-8-7-Control-of-nonconforming-outputs"
+                },
+                {
+                  "text": "§9 Performance evaluation — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-9-Performance-evaluation"
+                },
+                {
+                  "text": "§9.2 Internal audit — ISO 9001:2015",
+                  "link": "/iso-9001/2015/iso2015-9-2-Internal-audit"
+                }
+              ]
+            },
+            {
+              "text": "ISO 9001:2026",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "§1 Scope — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-1-Scope"
+                },
+                {
+                  "text": "§10 Improvement — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-10-Improvement"
+                },
+                {
+                  "text": "§2 Normative references — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-2-Normative-references"
+                },
+                {
+                  "text": "§3 Terms and definitions — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-3-Terms-and-definitions"
+                },
+                {
+                  "text": "§4 Context of the organization — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-4-Context-of-the-organization"
+                },
+                {
+                  "text": "§5 Leadership — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-5-Leadership"
+                },
+                {
+                  "text": "§6 Planning — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-6-Planning"
+                },
+                {
+                  "text": "§7 Support — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-7-Support"
+                },
+                {
+                  "text": "§8 Operation — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-8-Operation"
+                },
+                {
+                  "text": "§9 Performance evaluation — ISO 9001:2026",
+                  "link": "/iso-9001/2026/iso2026-9-Performance-evaluation"
+                }
+              ]
+            }
+          ]
         },
         {
-          "text": "Policy",
-          "link": "/types/Policy"
+          "text": "Templates",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "AI prompt — draft a controlled SOP",
+              "link": "/templates/ai-sop-draft-prompt"
+            },
+            {
+              "text": "CAPA template",
+              "link": "/templates/capa-template"
+            },
+            {
+              "text": "Nonconformance report — capture form",
+              "link": "/templates/nonconformance-report"
+            },
+            {
+              "text": "SOP template",
+              "link": "/templates/sop-template"
+            }
+          ]
         },
         {
-          "text": "Record",
-          "link": "/types/Record"
+          "text": "Dashboards",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Nonconformance lifecycle",
+              "link": "/dashboards/nc-lifecycle"
+            },
+            {
+              "text": "QMS overview dashboard",
+              "link": "/dashboards/qms-overview"
+            },
+            {
+              "text": "SOP lifecycle — template to controlled document",
+              "link": "/dashboards/sop-lifecycle"
+            }
+          ]
         },
         {
-          "text": "Register",
-          "link": "/types/Register"
+          "text": "People",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Jane Doe",
+              "link": "/people/jane-doe"
+            }
+          ]
         },
         {
-          "text": "Role",
-          "link": "/types/Role"
+          "text": "Roles",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Production Manager",
+              "link": "/roles/prod-manager"
+            },
+            {
+              "text": "QA Director",
+              "link": "/roles/qa-director"
+            },
+            {
+              "text": "QA Engineer",
+              "link": "/roles/qa-engineer"
+            },
+            {
+              "text": "QA Manager",
+              "link": "/roles/qa-manager"
+            }
+          ]
         },
         {
-          "text": "SOP",
-          "link": "/types/SOP"
+          "text": "Inbox captures",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "NC-2026-11-19-002 — Connector housing dimension out of tolerance",
+              "link": "/inbox/NC-2026-11-19-002"
+            },
+            {
+              "text": "Near miss: unsecured pallet in goods-in bay",
+              "link": "/inbox/NEAR-MISS-2026-004"
+            },
+            {
+              "text": "Supplier issue: certificate of conformance missing",
+              "link": "/inbox/SUPPLIER-ISSUE-2026-003"
+            }
+          ]
         },
         {
-          "text": "WorkInstruction",
-          "link": "/types/WorkInstruction"
+          "text": "Types",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "AuditFinding",
+              "link": "/types/AuditFinding"
+            },
+            {
+              "text": "CAPA",
+              "link": "/types/CAPA"
+            },
+            {
+              "text": "Note",
+              "link": "/types/Note"
+            },
+            {
+              "text": "Person",
+              "link": "/types/Person"
+            },
+            {
+              "text": "Policy",
+              "link": "/types/Policy"
+            },
+            {
+              "text": "Record",
+              "link": "/types/Record"
+            },
+            {
+              "text": "Register",
+              "link": "/types/Register"
+            },
+            {
+              "text": "Role",
+              "link": "/types/Role"
+            },
+            {
+              "text": "SOP",
+              "link": "/types/SOP"
+            },
+            {
+              "text": "WorkInstruction",
+              "link": "/types/WorkInstruction"
+            }
+          ]
         }
       ]
     }

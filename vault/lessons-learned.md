@@ -31,7 +31,7 @@ A repo cannot resolve a link to a note it no longer contains. Each site therefor
 
 ## 3. Sidebar shape follows the content
 
-QMS_demo's numbers (`01 → 01.2 → 01.2.1`) encode a chapter tree. Controlled documents have no such numbering, so `build-sidebar.mjs` here produces flat folder groups with friendly titles. `ChapterBanner.vue` and `ChapterNav.vue` were deliberately not copied — they would be inert without numeric prefixes. `MermaidMount.vue` still saves the last visited page, and `ContinueReading.vue` shows the resume link on this site's homepage.
+QMS_demo's numbers (`01 → 01.2 → 01.2.1`) encode a chapter tree. Controlled documents have no such numbering, so `build-sidebar.mjs` here uses **folders as chapters**: one *QMS controls* group, 15 collapsible folder chapters, and documents nested beneath them; ISO 9001's `2015/` and `2026/` become nested sections. This keeps the same typography and interaction as QMS_demo (big chapter headings, compact document links, expand/collapse all). `ChapterBanner.vue` and `ChapterNav.vue` were deliberately not copied — they depend on numeric prefixes. `MermaidMount.vue` still saves the last visited page, and `ContinueReading.vue` shows the resume link on this site's homepage.
 
 ## 4. Independence checklist
 
