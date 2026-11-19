@@ -11,6 +11,17 @@ import { PUBLISHED_FOLDERS, isPublished } from './publish-scope.mjs'
 const here = path.dirname(fileURLToPath(import.meta.url))
 const vaultRoot = path.resolve(here, '../../vault')
 
+// Sidebar visibility is not publication. These folders are still built and
+// reachable through cross-site links; they are simply omitted from the menu.
+const HIDDEN_FROM_SIDEBAR = new Set([
+  'registers',
+  'iso-9001',
+  'templates',
+  'dashboards',
+  'people',
+  'inbox',
+])
+
 const TITLES = {
   policies: 'Policies',
   procedures: 'Procedures',
@@ -57,7 +68,7 @@ function walk(dir) {
       continue
     }
     const folder = rel.slice(0, slash)
-    if (!PUBLISHED_FOLDERS.includes(folder)) continue
+    if (!PUBLISHED_FOLDERS.includes(folder) || HIDDEN_FROM_SIDEBAR.has(folder)) continue
     if (!byFolder.has(folder)) byFolder.set(folder, [])
     byFolder.get(folder).push({ ...item, rel: rel.slice(folder.length + 1) })
   }
@@ -75,9 +86,9 @@ function chapter(text, items) {
 
 const chapters = []
 
-if (rootDocs.length) {
-  chapters.push(chapter('Vault docs', rootDocs))
-}
+// Root-level builder docs (README, AGENTS, DEVELOPMENT, lessons-learned) are
+// published but intentionally absent from the sidebar.
+void rootDocs
 
 for (const folder of PUBLISHED_FOLDERS) {
   const pages = byFolder.get(folder)

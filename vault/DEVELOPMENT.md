@@ -41,7 +41,7 @@ flowchart LR
 | `site/.vitepress/publish-scope.mjs` | Published folders + `REMOTE_BASE` |
 | `site/.vitepress/wikilinks.mjs` | Local links, cross-site absolute links, "not published" |
 | `site/.vitepress/mermaid.mjs` | Mermaid fence → renderable container |
-| `site/.vitepress/build-sidebar.mjs` | One group; folders are collapsible chapters, ISO 9001 has 2015/2026 sections |
+| `site/.vitepress/build-sidebar.mjs` | One group; folders are collapsible chapters. `HIDDEN_FROM_SIDEBAR` hides six folders from the menu without unpublishing them |
 | `site/.vitepress/remote-manifest.json` | Guide stems from QMS_demo |
 | `site/.vitepress/prepare-modules.mjs` | Creates `vault/node_modules` → `site/node_modules` symlink |
 | `site/.vitepress/theme/` | Nord CSS, Mermaid overlay, sidebar controls, resume card |

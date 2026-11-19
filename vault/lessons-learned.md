@@ -33,6 +33,8 @@ A repo cannot resolve a link to a note it no longer contains. Each site therefor
 
 QMS_demo's numbers (`01 → 01.2 → 01.2.1`) encode a chapter tree. Controlled documents have no such numbering, so `build-sidebar.mjs` here uses **folders as chapters**: one *QMS controls* group, 15 collapsible folder chapters, and documents nested beneath them; ISO 9001's `2015/` and `2026/` become nested sections. This keeps the same typography and interaction as QMS_demo (big chapter headings, compact document links, expand/collapse all). `ChapterBanner.vue` and `ChapterNav.vue` were deliberately not copied — they depend on numeric prefixes. `MermaidMount.vue` still saves the last visited page, and `ContinueReading.vue` shows the resume link on this site's homepage.
 
+**Sidebar visibility is not publication.** A set called `HIDDEN_FROM_SIDEBAR` in `build-sidebar.mjs` removes Registers, ISO 9001, Templates, Dashboards, People and Inbox captures from the menu; root builder docs are omitted as well. The pages remain in `srcExclude`'s published set and keep their routes, because 86 guides on QMS_demo link into them. Changing `PUBLISHED_FOLDERS` instead would break those links.
+
 ## 4. Independence checklist
 
 1. Never import code from the other repo.

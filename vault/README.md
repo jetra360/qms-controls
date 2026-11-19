@@ -44,7 +44,7 @@ site/package.json               ← vitepress + docs:dev / docs:build
 site/.vitepress/config.mts      ← title QMS_controls, base '/qms-controls/', nav
 site/.vitepress/publish-scope.mjs ← THE publish allowlist + REMOTE_BASE
 site/.vitepress/wikilinks.mjs   ← local links + cross-site absolute links
-site/.vitepress/build-sidebar.mjs ← folders as collapsible chapters
+site/.vitepress/build-sidebar.mjs ← folder chapters; some folders hidden from the menu only
 site/.vitepress/mermaid.mjs     ← mermaid fences → renderable containers
 site/.vitepress/remote-manifest.json ← guide stems from the other site
 site/.vitepress/theme/          ← Nord styling, diagram overlays, sidebar controls
@@ -73,6 +73,8 @@ npm run docs:build   # output: site/.vitepress/dist/
 | URL | `jetra360.github.io/qms-demo` | `jetra360.github.io/qms-controls` |
 | Content | `guides/` | everything else |
 | Sidebar | numeric chapters (01, 01.2) | folder chapters (Policies, Records, …) with the same nested styling |
+
+**Sidebar visibility is not publication.** Registers, ISO 9001, Templates, Dashboards, People, Inbox captures and the builder docs are hidden from the menu, but their pages are still built and reachable — cross-links from QMS_demo and direct URLs continue to work.
 
 A link to a note on the other site resolves through `site/.vitepress/remote-manifest.json` into an absolute URL and opens in a new tab. If you add or rename a note, regenerate the opposite manifest and commit it in **both** repos — see [[lessons-learned]].
 
